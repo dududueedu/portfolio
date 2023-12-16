@@ -12,4 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  description = `Analista de Sistemas. Gosto de programar e sou bastante
+  organizado.`;
+
 }
