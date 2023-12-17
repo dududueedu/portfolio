@@ -1,12 +1,14 @@
+mat-card {
+  padding: 0;
+  border-radius: 0;
+}
 .card-container {
-  background-color: #E8F1F2;
+  background-color: #fff;
   display: flex;
-  height: 100vh;
 
   .mat-container {
     background-color: #006494;
-    border-radius: 5px;
-    height: 10%;
+    height: 12vh;
     justify-content: center;
 
     .h2-home {

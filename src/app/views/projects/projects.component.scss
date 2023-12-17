@@ -1,0 +1,25 @@
+.pro-container {
+  height: 100vh;
+  background-color: #fff;
+
+  .card_projects {
+    margin-top: 5vh;
+    margin-left: 2vw;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    max-width: 200px;
+    min-width: 80px;
+    align-items: center;
+
+    p {
+      text-align: justify;
+    }
+    a {
+      padding: 5px;
+      background-color: #006494;
+      color: #fff;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  }
+}
