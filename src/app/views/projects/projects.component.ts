@@ -13,4 +13,8 @@ export class ProjectsComponent implements OnInit {
   }
 
   codeplay = './../../../assets/projects/cp.png'
+
+  finance_control = 'https://imgur.com/RDYWX4V.png'
+
+  resume = 'https://i.imgur.com/30sx8Yt.png'
 }
