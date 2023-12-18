@@ -1,25 +1,46 @@
 .pro-container {
   height: 100vh;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 
-  .card_projects {
-    margin-top: 5vh;
-    margin-left: 2vw;
+  .pro-div{
     display: flex;
-    position: absolute;
-    flex-direction: column;
-    max-width: 200px;
-    min-width: 80px;
-    align-items: center;
+    flex-direction: row;
 
-    p {
-      text-align: justify;
+    .card_projects {
+      margin: 12vw 0vw 0vw 6vw;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      max-width: 200px;
+      min-width: 80px;
+      align-items: center;
+
+      p {
+        text-align: justify;
+      }
+      a {
+        padding: 5px;
+        background-color: #006494;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
     }
-    a {
-      padding: 5px;
-      background-color: #006494;
-      color: #fff;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  @media only screen and (max-width: 780px) {
+    app-navbar {
+      padding-bottom: 10px;
+    }
+
+    .pro-div {
+      align-items: center;
+      flex-direction: column;
+      margin-top: 0px;
+
+      .card_projects {
+        margin: 0;
+      }
     }
   }
 }

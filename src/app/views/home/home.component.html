@@ -1,23 +1,9 @@
-<mat-card class="card-container">
-    <mat-toolbar class="mat-container">
-      <mat-toolbar-row class="mat-row">
-        <h2 class="h2-home"> EDUARDO DA SILVA GOMES </h2>
-        <span class="example-spacer"></span>
-        <a mat-raised-button class="btn-home" href=""> Home </a>
-        <a mat-raised-button class="btn-home" href="projects"> Projects </a>
-        <a mat-raised-button class="btn-home" href="https://esfinance.netlify.app/" target="_blank"> Services </a>
-        <a mat-raised-button class="btn-home" href="https://esfinance.netlify.app/" target="_blank"> Contact </a>
-      </mat-toolbar-row>
-
-      <mat-toolbar-row class="mat-row-responsive-ext">
-        <h2 class="h2-home"> EDUARDO DA SILVA GOMES </h2>
-          <mat-toolbar-row class="mat-row-responsive-int">
-            <a mat-raised-button class="btn-home" href="https://esfinance.netlify.app/" target="_blank"> Home </a>
-            <a mat-raised-button class="btn-home" href="https://esfinance.netlify.app/" target="_blank"> Projects </a>
-            <a mat-raised-button class="btn-home" href="https://esfinance.netlify.app/" target="_blank"> Services </a>
-            <a mat-raised-button class="btn-home" href="https://esfinance.netlify.app/" target="_blank"> Contact </a>
-          </mat-toolbar-row>
-      </mat-toolbar-row>
-    </mat-toolbar>
-</mat-card>
-
+<div class="home-container">
+  <app-navbar></app-navbar>
+  <mat-card class="examplecard">
+    <img class="photo" src="../../../assets/app.png" alt="Photo of Perfil">
+    <mat-card-content class="description">
+      {{description}}
+    </mat-card-content>
+  </mat-card>
+</div>
