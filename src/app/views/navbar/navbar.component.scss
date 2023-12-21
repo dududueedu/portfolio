@@ -54,11 +54,20 @@ mat-card {
 
     .btn-home {
       margin: 10px;
-      background-color: #fff;
+      background-color: #006494;
+      color: #fff;
+
+      .btn-ho {
+        display: none;
+      }
     }
     .btn-home:hover {
-      margin: 10px;
-      background-color: #e8f1f2e0;
+      .btn-ho {
+        display: block;
+        background-color: #e8f1f2e0;
+        width: 100%;
+        height: 1px;
+      }
     }
   }
 
