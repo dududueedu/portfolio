@@ -1,0 +1,62 @@
+.services-container{
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  .examplecard {
+    margin-top: 15vw;
+    display: flex;
+    justify-content: space-around;
+
+    .mini-card {
+      display: flex;
+      justify-content: center;
+      width: 300px;
+      height: 300px;
+      background-color: #006494;
+      border-radius: 20px;
+
+      span {
+        margin: 120px 0 0 0;
+        color: #fff;
+      }
+
+      .divimg {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .examplecard {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .mini-card{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 5%;
+
+        span {
+          margin: 90px 0 0 0;
+          color: #fff;
+        }
+
+        .divimg {
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -10,13 +10,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ProjectsComponent } from './views/projects/projects.component';
 import { NavbarComponent } from './views/navbar/navbar.component';
+import { ServicesComponent } from './views/services/services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProjectsComponent,
-    NavbarComponent
+    NavbarComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
