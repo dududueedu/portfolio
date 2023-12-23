@@ -14,33 +14,49 @@
     .pro-span {
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 50px;
+      color: #006494;
     }
   }
 
   .pro-div{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
     .card_projects {
-      margin: 6vw 0vw 0vw 11vw;
+      margin: 4vw 0vw 0vw 0vw;
       display: flex;
       position: relative;
       flex-direction: column;
-      max-width: 220px;
+      max-width: 350px;
       min-width: 80px;
       align-items: center;
+      justify-content: center;
+      background-color: #006494;
+      border-radius: 20px;
+
+      .span-card {
+        width: 200px;
+      }
 
       p {
         text-align: justify;
+        color: #fff;
       }
       a {
         padding: 5px;
-        background-color: #006494;
-        color: #fff;
+        background-color: #fff;
+        color: #006494;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
       .mat-card-header-text {
         margin: 0 0;
+      }
+      .mat-card-title {
+        color: #fff;
+      }
+      .mat-card-image {
+        width: 220px;
       }
     }
   }
