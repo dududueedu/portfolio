@@ -12,7 +12,7 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  codeplay = './../../../assets/projects/cp.png'
+  codeplay = './../../../assets/icons/cp.png'
 
   finance_control = 'https://imgur.com/RDYWX4V.png'
 
