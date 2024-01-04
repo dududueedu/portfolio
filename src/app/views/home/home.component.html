@@ -2,8 +2,18 @@
   <app-navbar></app-navbar>
   <mat-card class="examplecard">
     <img class="photo" src="../../../assets/app.png" alt="Photo of Perfil">
-    <mat-card-content class="description">
-      {{description}}
-    </mat-card-content>
+    <div class="div-description">
+      <mat-card-content class="description">
+        {{office}}
+        <div class="description1">{{description1}}</div>
+        <div class="description2">{{description2}}</div>
+      </mat-card-content>
+    </div>
+    <mat-card class="midias">
+      <img src="../../../assets/icons/instagram.svg">
+      <img src="../../../assets/icons/github.svg">
+      <img src="../../../assets/icons/face.svg">
+      <img src="../../../assets/icons/linkedin.svg">
+    </mat-card>
   </mat-card>
 </div>
