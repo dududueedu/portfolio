@@ -63,20 +63,23 @@ mat-card {
       width: 100%;
       justify-content: center;
       align-items: center;
-      margin-top: 10vh;
+      margin-top: 15vw;
       margin-left: 0vw;
 
       .photo {
         width: calc(30vw);
         height: calc(30vw);
-        margin-top: 10vh;
+        margin-top: 10vw;
       }
 
       .div-description {
         width: 80vw;
         position: relative;
+        margin-left: 0;
+        justify-content: center;
 
         .description {
+          margin-left: 0;
           display: flex;
           position: absolute;
           margin-top: 30vw;
