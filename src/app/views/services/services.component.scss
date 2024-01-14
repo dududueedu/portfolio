@@ -52,29 +52,32 @@
       align-items: center;
 
       .mini-card{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
         margin-bottom: 5%;
 
         span {
-          margin: 90px 0 0 0;
+          margin: 150px 0 0 0;
           color: #fff;
+          font-size: larger;
         }
 
         .span-dev {
           display: flex;
-          width: 160px;
+          width: 220px;
           flex-direction: column;
           text-align: center;
           span {
-            margin: 90px 0 0 0;
+            margin: 150px 0 0 0;
             color: #fff;
+            font-size: larger;
           }
         }
         .divimg {
+          margin-top: 10%;
           img {
-            width: 30px;
-            height: 30px;
+            width: 60px;
+            height: 60px;
           }
         }
       }
