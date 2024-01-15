@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { ProjectsComponent } from './views/projects/projects.component';
 import { NavbarComponent } from './views/navbar/navbar.component';
 import { ServicesComponent } from './views/services/services.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ServicesComponent } from './views/services/services.component';
     HomeComponent,
     ProjectsComponent,
     NavbarComponent,
-    ServicesComponent
+    ServicesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
