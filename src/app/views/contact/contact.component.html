@@ -1,1 +1,25 @@
-<p>contact works!</p>
+<app-navbar></app-navbar>
+<main id="container-master">
+    <form [formGroup]="formToSend">
+      <mat-card-content class="forms">
+        <mat-form-field class="form">
+          <span class="label">Nome</span>
+          <input matInput type="text" formControlName="name" required>
+        </mat-form-field>
+
+        <mat-form-field class="form">
+          <span class="label">Email</span>
+          <input matInput type="email" formControlName="email"/>
+        </mat-form-field>
+
+        <mat-form-field class="form">
+          <span class="label">Mensagem</span>
+          <textarea matInput type="text" formControlName="message"></textarea>
+        </mat-form-field>
+
+        <mat-card-actions class="btn-contact">
+          <button mat-button (click)="sendToSave()">Enviar</button>
+        </mat-card-actions>
+      </mat-card-content>
+    </form>
+</main>

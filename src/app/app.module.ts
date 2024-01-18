@@ -12,6 +12,10 @@ import { ProjectsComponent } from './views/projects/projects.component';
 import { NavbarComponent } from './views/navbar/navbar.component';
 import { ServicesComponent } from './views/services/services.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { ContactComponent } from './views/contact/contact.component';
     MatCardModule,
     MatIconModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
