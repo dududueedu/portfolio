@@ -28,15 +28,20 @@ export class ContactComponent implements OnInit {
   }
 
   async sendToSave() {
-    emailjs.init('riMxRfCqU_sy_p33w')
-    let response = await emailjs.send("service_udqzodd","template_88df4n3", {
-      name: this.formToSend.value.name,
-      email: this.formToSend.value.email,
-      message: this.formToSend.value.message
-    })
-    alert("Send Sucess: " +response)
-    console.log(response)
-    this.resetInPut()
+
+    let expression: RegExp = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
+
+    if (expression.test(this.formToSend.value.email)) {
+      emailjs.init('riMxRfCqU_sy_p33w')
+      let response = await emailjs.send("service_udqzodd","template_88df4n3", {
+        name: this.formToSend.value.name,
+        email: this.formToSend.value.email,
+        message: this.formToSend.value.message
+      })
+      this.resetInPut()
+    } else {
+      alert("error: email invalid")
+    }
   }
 
   resetInPut() {
