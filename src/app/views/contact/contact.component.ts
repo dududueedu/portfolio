@@ -33,7 +33,7 @@ export class ContactComponent implements OnInit {
 
     if (expression.test(this.formToSend.value.email)) {
       emailjs.init('riMxRfCqU_sy_p33w')
-      let response = await emailjs.send("service_udqzodd","template_88df4n3", {
+      await emailjs.send("service_udqzodd","template_88df4n3", {
         name: this.formToSend.value.name,
         email: this.formToSend.value.email,
         message: this.formToSend.value.message
