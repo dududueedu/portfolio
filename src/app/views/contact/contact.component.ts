@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms';
 import { Message } from 'src/app/src/components/models/message';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-contact',
@@ -38,9 +39,22 @@ export class ContactComponent implements OnInit {
         email: this.formToSend.value.email,
         message: this.formToSend.value.message
       })
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        text: "Email enviado!",
+        showConfirmButton: false,
+        timer: 2000
+      });
       this.resetInPut()
     } else {
-      alert("error: email invalid")
+      Swal.fire({
+        position: "center",
+        icon: "error",
+        text: "Não foi possível enviar o email.",
+        showConfirmButton: false,
+        timer: 2000
+      });
     }
   }
 
