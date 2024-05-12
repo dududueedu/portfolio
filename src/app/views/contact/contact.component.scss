@@ -10,6 +10,11 @@
       user-select: none;
       font-size: 30px;
       margin-top: 45px;
+      .m-internal{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 10px;
+        color: #19d156;
+      }
     }
     .forms {
       display: flex;
