@@ -4,11 +4,12 @@ import { HomeComponent } from './views/home/home.component';
 import { ProjectsComponent } from './views/projects/projects.component';
 import { ServicesComponent } from './views/services/services.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { PageComponent } from './views/page/page.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: PageComponent
   },
   {
     path: 'projects',
@@ -21,7 +22,7 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
-  }
+  },
 ];
 
 @NgModule({

@@ -3,15 +3,17 @@ mat-card {
   border-radius: 0;
 }
 .home-container {
+  height: 100vh;
+  display: flex;
   .examplecard {
     display: flex;
     position: absolute;
-    margin-top: 20vh;
-    margin-left: 2vw;
+    margin-top: 150px;
+    margin-left: 15rem;
 
     .photo {
       display: flex;
-      position: absolute;
+      position: relative;
       border-radius: 50%;
       width: calc(20vw);
       height: calc(20vw);
@@ -19,7 +21,7 @@ mat-card {
 
     .div-description {
       display: flex;
-      position: fixed;
+      position: absolute;
       width: 40vw;
       margin-top: 5vh;
       margin-left: 20vw;

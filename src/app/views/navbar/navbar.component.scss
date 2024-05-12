@@ -4,8 +4,9 @@ mat-card {
 }
 .card-container {
   background-color: #fff;
-  display: flex;
-
+  display: block;
+  position: fixed;
+  width: 100%;
   .mat-container {
     justify-content: center;
 
