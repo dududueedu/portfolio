@@ -5,6 +5,49 @@ mat-card {
 .home-container {
   height: 100vh;
   display: flex;
+
+  .effect_0 {
+    height: 250px;
+    width: 10px;
+    margin-top: 400px;
+    background-color: #006494;
+    -webkit-transform: skew(20deg); 
+    -ms-transform: skew(20deg);
+    transform: skew(20deg);
+  }
+
+  .effect_1 {
+    height: 350px;
+    width: 30px;
+    margin-top: 300px;
+    background-color: #006494;
+    -webkit-transform: skew(20deg); 
+    -ms-transform: skew(20deg);
+    transform: skew(20deg);
+  }
+
+  .effect_2 {
+    height: 220px;
+    width: 30px;
+    margin-top: 650px;
+    margin-left: -43px;
+    background-color: #006494;
+    -webkit-transform: skew(-35deg); 
+    -ms-transform: skew(-35deg);
+    transform: skew(-35deg);
+  }
+
+  .effect_3 {
+    height: 120px;
+    width: 10px;
+    margin-top: 650px;
+    margin-left: -23px;
+    background-color: #006494;
+    -webkit-transform: skew(-35deg); 
+    -ms-transform: skew(-35deg);
+    transform: skew(-35deg);
+  }
+
   .examplecard {
     display: flex;
     position: absolute;
