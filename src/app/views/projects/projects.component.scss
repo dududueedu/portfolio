@@ -4,6 +4,35 @@
   display: flex;
   flex-direction: column;
 
+  .detail0 {
+    display: flex;
+    position: absolute;
+    margin-top: 400px;
+    right: 0px;
+    height: 5px;
+    width: 55px;
+    background-color: #006494;
+  }
+
+  .detail1 {
+    display: flex;
+    position: absolute;
+    margin-top: 410px;
+    height: 5px;
+    width: 55px;
+    background-color: #006494;
+  }
+
+  .detail2 {
+    display: flex;
+    position: absolute;
+    margin-top: 420px;
+    right: 0px;
+    height: 5px;
+    width: 55px;
+    background-color: #006494;
+  }
+
   .pro-card {
     display: flex;
     position: relative;
