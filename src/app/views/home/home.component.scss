@@ -48,6 +48,17 @@ mat-card {
     transform: skew(-35deg);
   }
 
+  .details {
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    background-color: #006494;
+    margin-top: 0px;
+    border-radius:  0px 0px 0px 400px;
+    right: 0px;
+  }
+
   .examplecard {
     display: flex;
     position: absolute;
@@ -108,14 +119,22 @@ mat-card {
   }
 
   @media only screen and (max-width: 780px) {
+    .effect_0, .effect_1, .effect_2, .effect_3 {
+      display: none;
+    }
+    .details {
+      display: none;
+    }
     .examplecard {
       width: 100%;
       justify-content: center;
       align-items: center;
-      margin-top: 15vw;
+      margin-top: 30vw;
       margin-left: 0vw;
 
       .photo {
+        display: flex;
+        position: absolute;
         width: calc(30vw);
         height: calc(30vw);
         margin-top: 10vw;
