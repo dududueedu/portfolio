@@ -1,5 +1,5 @@
 .services-container{
-  height: 100vh;
+  height: 100%;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
   }
   @media only screen and (max-width: 780px) {
     .examplecard {
-      margin-top: 120vh;
+      //margin-top: 120vh;
       flex-direction: column;
       justify-content: center;
       align-items: center;
