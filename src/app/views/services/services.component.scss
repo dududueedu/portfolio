@@ -64,6 +64,21 @@
     }
   }
   @media only screen and (max-width: 780px) {
+    .label {
+      margin-top: 50px;
+      align-self: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #006494;
+      user-select: none;
+      font-size: 20px;
+      font-weight: bold;
+      .m-internal{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 10px;
+        color: #19d156;
+        font-size: 26px;
+      }
+    }
     .examplecard {
       //margin-top: 120vh;
       flex-direction: column;
