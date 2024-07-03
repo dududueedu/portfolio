@@ -137,10 +137,11 @@ mat-card {
         position: absolute;
         width: calc(30vw);
         height: calc(30vw);
-        margin-top: 10vw;
+        margin-top: 50px;
       }
 
       .div-description {
+        display: flex;
         width: 80vw;
         position: relative;
         margin-left: 0;
@@ -149,11 +150,17 @@ mat-card {
         .description {
           margin-left: 0;
           display: flex;
+          align-items: center;
           position: absolute;
-          margin-top: 30vw;
+          margin-top: 150px;
+          font-size: 1.5rem;
+          font-weight: 550;
+          flex-direction: column;
         }
         .description1 {
-          display: none;
+          margin-top: 0px;
+          font-size: 1.1rem;
+          font-style: italic;
         }
         .description2 {
           display: none;
@@ -163,7 +170,7 @@ mat-card {
       .midias {
         display: flex;
         position: absolute;
-        margin-top: 55vw;
+        margin-top: 300px;
 
         img {
           margin: 0 20px 0 0;
