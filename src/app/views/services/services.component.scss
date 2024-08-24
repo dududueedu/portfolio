@@ -61,6 +61,36 @@
           height: 80px;
         }
       }
+
+      .info {
+        display: none;
+        color: #fff;
+      }
+    }
+
+    .mini-card:hover {
+      .span-dev {
+        display: none;
+      }
+      .divimg {
+        display: none;
+      }
+      span {
+        display: none;
+      }
+      .info {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 240px;
+        p {
+          text-align: justify;
+          a {
+            color: #fff;
+          }
+        }
+      }
     }
   }
   @media only screen and (max-width: 780px) {
