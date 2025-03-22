@@ -3,6 +3,8 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .detail0 {
     display: flex;
@@ -10,7 +12,7 @@
     margin-top: 400px;
     right: 0px;
     height: 5px;
-    width: 5rem;
+    width: 10rem;
     background-color: #006494;
   }
 
@@ -18,8 +20,9 @@
     display: flex;
     position: absolute;
     margin-top: 410px;
+    left: 0px;
     height: 5px;
-    width: 5rem;
+    width: 10rem;
     background-color: #006494;
   }
 
@@ -29,7 +32,7 @@
     margin-top: 420px;
     right: 0px;
     height: 5px;
-    width: 5rem;
+    width: 10rem;
     background-color: #006494;
   }
 
@@ -49,9 +52,10 @@
   }
 
   .pro-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+
 
     .card_projects {
       margin: 4px 0 0 0;
@@ -97,9 +101,7 @@
     }
 
     .pro-div {
-      align-items: center;
-      flex-direction: column;
-      margin-top: 0px;
+      grid-template-columns: auto;
 
       .card_projects {
         margin: 0 0 20px 0;
