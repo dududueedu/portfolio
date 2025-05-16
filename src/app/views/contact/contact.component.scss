@@ -37,13 +37,13 @@
           height: 30px;
           background-color: #fff;
           border-radius: 5px;
-          padding: 0px 0px 0px 8px;
+          padding: 0px 0px 0px 0px;
         }
         .camp-text {
           height: 70px;
           background-color: #fff;
           border-radius: 5px;
-          padding: 6px 0px 0px 8px;
+          padding: 6px 0px 0px 0px;
           margin-top: 1px;
         }
         .label {
@@ -55,5 +55,18 @@
         margin: 35px 0 0 0;
       }
     }
+
+    @media only screen and (max-width: 780px) {
+      .forms {
+        width: 350px;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: 30px;
+
+        .btn-contact {
+          margin: 60px 0 0 0;
+        }
+      }
+    }  
 }
 
