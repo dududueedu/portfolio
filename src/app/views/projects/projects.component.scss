@@ -8,30 +8,30 @@
   .detail0 {
     display: flex;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 270px;
     right: 0px;
     height: 5px;
-    width: 10rem;
+    width: 12rem;
     background-color: #006494;
   }
 
   .detail1 {
     display: flex;
     position: absolute;
-    margin-top: 410px;
+    margin-top: 280px;
     left: 0px;
     height: 5px;
-    width: 10rem;
+    width: 12rem;
     background-color: #006494;
   }
 
   .detail2 {
     display: flex;
     position: absolute;
-    margin-top: 420px;
+    margin-top: 320px;
     right: 0px;
     height: 5px;
-    width: 10rem;
+    width: 12rem;
     background-color: #006494;
   }
 
@@ -53,7 +53,7 @@
   .pro-div{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 25px;
+    grid-gap: 50px;
     justify-content: center;
 
     .card_projects {
@@ -61,9 +61,9 @@
       display: flex;
       position: relative;
       flex-direction: column;
-      height: 350px;
+      height: 400px;
       max-width: 350px;
-      min-width: 80px;
+      min-width: 300px;
       align-items: center;
       justify-content: center;
       background-color: #006494;
@@ -90,17 +90,37 @@
         color: #fff;
       }
       .mat-card-image {
-        width: 220px;
+        width: 240px;
+        height: 140px;
+      }
+      .p_space{
+        width: 240px;
+      }
+      .btn-component {
+        margin-top: 24px;
       }
     }
   }
   @media only screen and (max-width: 780px) {
     app-navbar {
       padding-bottom: 10px;
+    }    
+    .detail0 {
+      margin-top: 640px;
     }
-
+  
+    .detail1 {
+      margin-top: 640px;
+    }
+  
+    .detail2 {
+      margin-top: 660px;
+    }
+    
     .pro-div {
+      margin-top: 72px;
       grid-template-columns: auto;
+      grid-gap: 36px;
 
       .card_projects {
         margin: 0 0 20px 0;
