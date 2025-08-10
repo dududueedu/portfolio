@@ -8,30 +8,20 @@
   .detail0 {
     display: flex;
     position: absolute;
-    margin-top: 270px;
+    margin-bottom: 220px;
     right: 0px;
     height: 5px;
-    width: 12rem;
+    width: 20rem;
     background-color: #006494;
   }
 
   .detail1 {
     display: flex;
     position: absolute;
-    margin-top: 280px;
+    margin-top: 660px;
     left: 0px;
     height: 5px;
-    width: 12rem;
-    background-color: #006494;
-  }
-
-  .detail2 {
-    display: flex;
-    position: absolute;
-    margin-top: 320px;
-    right: 0px;
-    height: 5px;
-    width: 12rem;
+    width: 20rem;
     background-color: #006494;
   }
 
@@ -52,7 +42,7 @@
 
   .pro-div{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 50px;
     justify-content: center;
 
